@@ -1,9 +1,16 @@
+
+
 html{
   scroll-behavior: smooth;
 }
 body{
   margin: 0; padding: 0;
+  -ms-overflow-style: none;
 }
+::-webkit-scrollbar {
+  display: none;
+}
+
 main{
   width: 100%;
   display: flex;
